@@ -3,7 +3,6 @@
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
-    background-size: 50px;
 }
 
 .head {
@@ -17,7 +16,7 @@
     max-width: 70%;
     margin-left: 13%;
     margin-right: 13%;
-    border: black 2px;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .navprin a {
@@ -29,32 +28,9 @@
     margin-left: 13%;
 }
 
-.topnav {
-    background-color: aquamarine;
-    overflow: hidden;
-    height: 180px;
+.bordes {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 2px;
 }
 
-.topnav a {
-    float: left;
-    color: rgba(0, 0, 255, 0.844);
-    margin-left: 13%;
-    margin-top: 2.5%;
-    text-decoration: none;
-    font-size: 60px;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-weight: bold;
-    text-shadow: 1px 2px 5px black;
-    background-color: aquamarine;
-    background-position: 100%;
-}
-
-.topnav a:hover {
-    color: black;
-    background-color: green;
-    background-position: 100%;
-}
-
-.topnav a.active {
-    color: white;
-}
