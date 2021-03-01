@@ -1,0 +1,60 @@
+.rotulo {
+    background-color: rgb(197, 15, 15);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    background-size: 50px;
+}
+
+.head {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.navprin {
+    overflow: hidden;
+    background-color: rgb(55, 169, 27);
+    max-width: 70%;
+    margin-left: 13%;
+    margin-right: 13%;
+    border: black 2px;
+}
+
+.navprin a {
+    float: left;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 13%;
+}
+
+.topnav {
+    background-color: aquamarine;
+    overflow: hidden;
+    height: 180px;
+}
+
+.topnav a {
+    float: left;
+    color: rgba(0, 0, 255, 0.844);
+    margin-left: 13%;
+    margin-top: 2.5%;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 2px 5px black;
+    background-color: aquamarine;
+    background-position: 100%;
+}
+
+.topnav a:hover {
+    color: black;
+    background-color: green;
+    background-position: 100%;
+}
+
+.topnav a.active {
+    color: white;
+}
