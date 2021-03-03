@@ -1,17 +1,20 @@
-.nav1 {
-    background-color: rgb(255, 0, 0);
-    width: 100%;
-    text-align: left;
-    margin-left: 10%;
+.izquierda1>img {
+    margin-left: 9%;
+    margin-top: 0.5%;
+    height: 120px;
+    width: 200px;
 }
 
-.nav1 > a > img{
-    width: 50%;
-    height: 200%;
+.navegacion {
+    float: right;
+    margin-top: 2%;
+    margin-right: 45%;
+
 }
 
-.izquierda1 {
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
+.nav-item>a {
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    font-family: Rubik Mono One;
 }
