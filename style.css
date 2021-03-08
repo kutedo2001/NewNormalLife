@@ -39,4 +39,9 @@ div {
     right: 0;
 }
 
-.menubusqueda{background-color: black;z-index: 10px;position: absolute;margin: -999999px;}
+.menubusqueda {
+    background-color: black;
+    z-index: 10px;
+    position: absolute;
+    margin: -999999px;
+}
